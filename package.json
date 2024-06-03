@@ -1,0 +1,32 @@
+{
+  "name": "termtype",
+  "version": "1.0.0",
+  "description": "cli typing practice and speed testing tool",
+  "type": "module",
+  "bin": {
+    "ttype": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/cli.js"
+  },
+  "keywords": [
+    "cli",
+    "typing",
+    "speedtest"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Revanth686/termtype.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Revanth686/termtype/issues"
+  },
+  "homepage": "https://github.com/Revanth686/termtype/#readme",
+  "author": "htnaver119",
+  "license": "ISC",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "meow": "^13.2.0"
+  }
+}
